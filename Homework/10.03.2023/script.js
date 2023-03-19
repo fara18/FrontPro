@@ -52,10 +52,19 @@ for (let index = 0; index <= 10; index++) {
     console.log(index + '*5-' + 5 * index)
 }
 /* Напишите цикл, который переворачивает порядок элементов в массиве. */
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+const arrayReverse = []
+for (let index = array.length - 1; index >= 0; index--) {
 
-}
+    arrayReverse.push(array[index])
+
+
+} console.log(arrayReverse);
 
 
 /*Напишите цикл, который находит сумму элементов массива, кратных 3 или 5.*/
+let sumNum=0;
+for (i = 0; i < array.length; i++){
+if (array[i]%3===0||array[i]%5===0) {
+    sumNum+=array[i]
+}
+}
