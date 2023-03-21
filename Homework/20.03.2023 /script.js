@@ -25,6 +25,15 @@ for (i = 0; i < strArr.length; i++) {
 strArr.forEach(str => str.length >= 7 ? newArr.push(str) : '')
 
 // 3. Дан массив со строками. Сформировать новый массив, в который попадут все строки из исходного массива, которые начинаются на букву D или d
+const stringArray = ["day", "Down", "apple"];
+const arrayWithD = []
+
+/* Using forLoop */
+for (let i = 0; i < stringArray.length; i++) {
+    stringArray[i].charAt(0) === "d" || stringArray[i].charAt(0) === "D" ? arrayWithD.push(stringArray[i]) : '';
+}
+/* Using forEach */
+stringArray.forEach(index => index.charAt(0) === "d" || index.charAt(0) === "D" ? arrayWithD.push(index) : '')
 
 // 4. Дан массив с числами. Сформировать новый массив, в который попадут все числа из исходного массива, возведенные в 3 степень
 
