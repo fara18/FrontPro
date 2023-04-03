@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: azure;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+.appleTitle{
+    margin-top: 6px;
+    text-align: center;
+}
+.applePrice{
+    margin-top:99% ;
+    text-align: center;
+}
+
+.appleCard{
+    border: 3px solid black;
+    background-color: rgb(62, 62, 62);
+    width: 200px;
+    height: 250px; 
+}
+.orangeTitle{
+    margin-top: 6px;
+    text-align: center;
+}
+.orangePrice{
+    margin-top:99% ;
+    text-align: center;
+}
+
+.orangeCard{
+    border: 3px solid black;
+    background-color: rgb(62, 62, 62);
+    width: 200px;
+    height: 250px; 
+}
+
+.kiwiTitle{
+    margin-top: 6px;
+    text-align: center;
+}
+.kiwiPrice{
+    margin-top:99% ;
+    text-align: center;
+}
+
+.kiwiCard{
+    border: 3px solid black;
+    background-color: rgb(62, 62, 62);
+    width: 200px;
+    height: 250px; 
+}
+
+
+.bananaTitle{
+    margin-top: 6px;
+    text-align: center;
+}
+.bananaPrice{
+    margin-top:99% ;
+    text-align: center;
+}
+
+.bananaCard{
+    border: 3px solid black;
+    background-color: rgb(62, 62, 62);
+    width: 200px;
+    height: 250px; 
+}
+
